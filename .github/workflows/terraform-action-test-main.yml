@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'deployment/prod/**'
+      - 'deployment/test/**'
   pull_request:
     branches: [ main ]
 
