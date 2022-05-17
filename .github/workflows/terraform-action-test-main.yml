@@ -7,8 +7,8 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     paths:
-      - 'terraform-action-practice/deploymnet/prod/*'
-      - 'terraform-action-practice/deploymnet/test/*'
+      - 'terraform-action-practice/deployment/prod/*'
+      - 'terraform-action-practice/deployment/test/*'
   pull_request:
     branches: [ main ]
 
