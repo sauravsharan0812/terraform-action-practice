@@ -6,9 +6,9 @@ name: terraform-action-practice
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    - paths:
-        - 'terraform-action-practice/deploymnet/prod/*'
-        - 'terraform-action-practice/deploymnet/test/*'
+    paths:
+      - 'terraform-action-practice/deploymnet/prod/*'
+      - 'terraform-action-practice/deploymnet/test/*'
   pull_request:
     branches: [ main ]
 
